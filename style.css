@@ -31,11 +31,12 @@ img
     
     a 
     {
+        color: #0066cc;
         text-decoration: none;
     }
     a:visited
     {
-        color: red;
+        color: #0066cc;
     }
     a:hover
     {
@@ -69,7 +70,19 @@ img
 /* 
     CONTENT classes define recurring traits of each page, filled in by that page's content
 */
+.content-container a
+{
+    color: rgb(196, 0, 0);
 
+    a:visited
+    {
+        color: rgb(196, 0, 0);
+    }
+    a:hover
+    {
+        color: white;
+    }
+}
 .content-title
 {
     font-size: 28px;
@@ -89,11 +102,10 @@ img
     padding-top: 5px;
 }
 
-.content-table-of-contents
+/* .content-table-of-contents
 {
 
-}
-
+} */
 .content
 {
     margin-top: 45px;
@@ -144,5 +156,4 @@ img
     margin-left: 5%;
     margin-right: 5%;
     /* width: 75%; */
-    } */
 }
