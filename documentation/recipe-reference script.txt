@@ -9,7 +9,7 @@ The advice offered here is not exhaustive--it mainly serves to highlight the mos
 Not sure where to start? Use ctrl+f to search for specific items, or select one of the headings below:
 
 
-##What to do first
+##What to do first##
 
 "IT'S MINECRAFT. PUNCH A TREE" - CODER39
 
