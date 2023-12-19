@@ -21,6 +21,7 @@ img
     max-width: 100%;
 }
 
+
 /* 
     WEBSITE classes and IDs show up on every page 
     Recurring sidebars and nav bar at the top etc 
@@ -168,6 +169,10 @@ img
 {
     max-width: 55%;
 }
+.even-smaller-width img
+{
+    max-width: 45%;
+}
 
 /* these classes alter p text in useful ways */
 .caption p
@@ -220,37 +225,43 @@ small and large device window sizes, change below
         margin-left: 5%;
         margin-right: 5%;
     }
+
+    .even-smaller-width img
+{
+    max-width: 55%;
+}
 }
 
 
 /* 
-                   <a href="#punch-tree">First Recipes</a>
+<a href="#punch-tree">First Recipes</a>
 
-                    <a href="#blocks">Blocks and Slabs</a>
+<a href="#blocks">Blocks and Slabs</a>
 
-                    <a href="#clubs">Primitive Weapons</a>
+<a href="#clubs">Primitive Weapons</a>
 
-                    <a href="#cooking">Cooking</a>
+<a href="#cooking">Cooking</a>
 
-                    <a href="#string">String</a>
+<a href="#string">String</a>
 
-                    <a href="#stone-tools">Stone Tools</a>
+<a href="#stone-tools">Stone Tools</a>
 
-                    <a href="#clay">Making an Oven</a>
+<a href="#clay">Making an Oven</a>
 
-                    <a href="#fishing">Fishing</a>
+<a href="#fishing">Fishing</a>
 
-                    <a href="#baskets">Knitting and Basket Weaving</a>
+<a href="#baskets">Knitting and Basket Weaving</a>
 
-                    <a href="#crafting-stump">Crafting Table.. stump?</a>
+<a href="#crafting-stump">Crafting Table.. stump?</a>
 
-                    <a href="iron">The Iron Age</a>
+<a href="crafting">Crafting Stump</a>
 
-                    <a href="hemp">Growing Hemp</a>
+<a href="iron">The Iron Age</a>
 
-                    <a href="mechanical">Mechanical Power</a>
+<a href="hemp">Farming Hemp</a>
 
-                    <a href="diamonds">Diamonds!</a>
+<a href="mechanical">Mechanical Power</a>
 
+<a href="diamonds">Diamonds!</a>
 
 */
