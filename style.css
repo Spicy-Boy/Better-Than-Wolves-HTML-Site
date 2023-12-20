@@ -93,6 +93,15 @@ img
 
     padding-bottom: 5px;
 }
+.content-title-slayer
+{
+    color:yellow;
+    font-size: 28px;
+    text-align: center;
+
+    padding-bottom: 5px;
+    padding-top: 25px;
+}
 #content-sub-title
 {
     font-size: 24px;
