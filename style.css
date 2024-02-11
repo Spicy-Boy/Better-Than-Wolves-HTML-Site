@@ -241,6 +241,17 @@ small and large device window sizes, change below
     }
 }
 
+.centered .slayers {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.centered .no-style {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+
 
 /* 
 <a href="#punch-tree">First Recipes</a>
