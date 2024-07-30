@@ -1,7 +1,7 @@
 console.log('Fetching donations from api.......');
 
 const route = "/api/donations/getDonations";
-const base = "http://108.49.99.17:6969"; //subject to change of course ;p
+const base = "https://latienda.zapto.org"; //subject to change of course ;p
 
 async function fetchDonations()
 {
