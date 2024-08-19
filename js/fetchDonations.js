@@ -39,14 +39,20 @@ async function createDonationCards(donations)
     const first = document.getElementById('pool-1st');
     const second = document.getElementById('pool-2nd');
     const third = document.getElementById('pool-3rd');
+    const fourth = document.getElementById('pool-4th');
+    const fifth = document.getElementById('pool-5th');
+
     const special = document.getElementById('special-prize');
 
     console.log(first,second,third,special);
 
-    first.textContent = "$"+(totalPrize*.45).toFixed(2);
-    second.textContent = "$"+(totalPrize*.30).toFixed(2);
+    first.textContent = "$"+(totalPrize*.40).toFixed(2);
+    second.textContent = "$"+(totalPrize*.25).toFixed(2);
     third.textContent = "$"+(totalPrize*.15).toFixed(2);
-    special.textContent = "$"+(totalPrize*.10).toFixed(2);
+    fourth.textContent = "$"+(totalPrize*.10).toFixed(2);
+    fifth.textContent = "$"+(totalPrize*.05).toFixed(2);
+
+    special.textContent = "$"+(totalPrize*.05).toFixed(2);
 
     //STEP 2: create dom elements for individual donation cards!
 
