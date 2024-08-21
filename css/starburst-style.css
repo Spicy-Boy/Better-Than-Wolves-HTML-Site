@@ -117,6 +117,20 @@ ul {
   display: none;
 }
 
+.underlined {
+  text-decoration: underline;
+}
+
+.leaderboard-listing {
+  margin-bottom: 15px;
+  /* background-color: rgb(102, 0, 0); */
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.time {
+  font-size: .89em;
+}
+
 .black-banner {
   margin-top: 5%;
   /* background-color: black; */
@@ -381,6 +395,10 @@ h2 {
   .celestial-object-2 {
     width: 200px;
     display: inline;
+  }
+
+  .mobile-size {
+    font-size: 32px;
   }
 
 }
